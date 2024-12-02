@@ -2,6 +2,12 @@ import java.util.Random;
 
 public class RandomHexGenerator {
 
+    /**
+     * Generates a random hexadecimal string formatted as "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx".
+     * The string consists of 32 random hexadecimal characters split into five groups with hyphens.
+     *
+     * @return A formatted string in the form of "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx".
+     */
     public static String generateRandomHex() {
         Random random = new Random();
         StringBuilder hexString = new StringBuilder();
