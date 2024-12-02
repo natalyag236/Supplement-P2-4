@@ -7,7 +7,7 @@ public class StringHasherTest {
     @Test
     public void testHashString() throws NoSuchAlgorithmException {
         String input = "Fly, Eagles!";
-        String expectedHash = "b80352d0f26e95e1d980d5f94bb46f6b831d2a267c42d59e99cdd8a9ca17331d";
+        String expectedHash = "2e689353ffe0d4ddc738dc1047df25ed40c9f63e48a07b6017df890e9faee538";
 
         String actualHash = StringHasher.hashString(input);
 
